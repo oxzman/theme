@@ -1,0 +1,256 @@
+html {
+  scroll-behavior: smooth !important;
+ }
+a {
+    text-decoration: none !important;
+}
+a:hover {
+    color: #ffffff !important;
+}
+.app {
+    padding-top: 4.25rem;
+}
+.app-sidebar {
+    padding-top: 2rem;
+}
+.dropdown-menu {
+    min-width: 15rem;
+}
+.app-content {
+    padding: 2rem 0.25rem !important;
+}
+.srBrand {
+    height: 100%;
+    width: 18.875rem;
+    padding: 0 0.5rem;
+    display: grid;
+    align-items: center;
+    position: absolute;
+    margin-left: -100px !important;
+    left: 50%;
+}
+.srLogo {
+    width: 150px;
+    height: 100%;
+}
+.srBrand-text {
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+.app-header {
+    height: 4.5rem;
+}
+.srCarousel {
+    height: 350px;
+}
+.srSearch {
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.75);
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.srBtnSearch {
+    color: #3cd2a5;
+    border: 1px solid #3cd2a5;
+}
+.srBtnSearch:hover {
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+.srImgPop {
+    width: 100%;
+    height: 172px;
+    padding: 2px;
+}
+.srPopWidth {
+    width: 200px;
+}
+.srTitlePop {
+    padding: 2px;
+}
+.srTextPop {
+    border-top: solid 1px;
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+.srCategoryPills {
+    margin-right: 10px;
+    margin-bottom: 5px;
+    background-color: #1d2835;
+    border: solid 1px #3cd2a5;
+    border-radius: 4px;
+}
+.srHover:hover {
+    background-color: #3cd2a5;
+    color: #ffffff !important;
+}
+.srTitlePillsMargin {
+    padding: 10px;
+}
+.srImgPills {
+    width: 100%;
+    height: 125px;
+    padding: 2px;
+}
+.srPillsWidth {
+    font-size: 12px;
+    width: 150px;
+}
+.srTextPills {
+    font-size: 12px;
+}
+.srSubMenu {
+    margin-right: 10px;
+}
+.srModalClose {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: calc(var(--bs-modal-header-padding-y) * 0.5)
+        calc(var(--bs-modal-header-padding-x) * 0.5);
+    margin: calc(-0.5 * var(--bs-modal-header-padding-y))
+        calc(-0.5 * var(--bs-modal-header-padding-x))
+        calc(0.5 * var(--bs-modal-header-padding-y)) auto;
+}
+.srBlogCol {
+    flex: 0 0 auto;
+    width: 50%;
+}
+.srBlogImg {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+.srFAQContainer {
+    margin-top: 10px;
+}
+.srFooter {
+    margin-top: 10px;
+    border-top: 1px solid var(--bs-border-color);
+    padding: 5px;
+}
+.srFooterLogo {
+    height: 50px;
+    width: 100%;
+}
+.srFooterCol {
+    flex: 0 0 100% !important;
+}
+.srPostTitle {
+    font-size: 20px;
+}
+.srPostDate {
+    display: flex;
+    font-size: 16px;
+    padding: 5px;
+}
+.srPostImg {
+    max-height: 20rem;
+    margin-bottom: 2rem;
+    object-fit: scale-down;
+}
+.srProductImg {
+    padding: 2px;
+}
+.srProductDesc {
+    font-size: 16px;
+    padding: 10px 0px;
+}
+.srProductList {
+    background-color: rgba(255, 255, 255, 0.25);
+}
+.srProductList:hover {
+    background-color: #3cbcd2;
+}
+.srProductList.active {
+    background-color: #3cbcd2 !important;
+}
+.srPaymentList {
+    background-color: rgba(255, 255, 255, 0.25);
+}
+.srPaymentList:hover {
+    background-color: #3cbcd2;
+}
+.srPaymentList.active {
+    background-color: #3cbcd2 !important;
+}
+.srPaymentImg {
+    width: auto;
+    height: 2rem;
+}
+
+@media screen and (max-width: 640px) {
+    .app {
+        padding-top: 6rem;
+    }
+    .app-content {
+        padding: 0.2rem 0.25rem !important;
+    }
+    .srCarousel {
+        height: 120px;
+    }
+
+    .srBrand-text {
+        font-weight: 700;
+        font-size: 1.1rem;
+    }
+    .srLogo {
+        width: 150px;
+        height: 100%;
+        margin-left: 25px;
+    }
+    .srImgPop {
+        width: 100%;
+        height: 100px;
+        padding: 2px;
+    }
+    .srPopWidth {
+        width: 120px;
+    }
+    .srTitlePop {
+        min-height: 3rem;
+        padding: 2px;
+        font-size: 12px;
+    }
+    .srTitlePopMargin {
+        padding: 10px;
+    }
+    .srPillsWidth {
+        font-size: 12px;
+        width: 120px;
+    }
+    .srTitlePillsMargin {
+        padding: 0.5rem;
+    }
+    .srImgPills {
+        width: 100%;
+        height: 100px;
+        padding: 2px;
+    }
+    .srCol {
+        flex: 0 0 100% !important;
+    }
+    .srBlogCol {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+    .srBlogImg {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    .srProductImg {
+        width: fit-content;
+        height: 100px;
+        padding: 2px;
+    }
+    .srProductWith{
+        max-width: 7.5rem;
+    }
+    .srProductDesc {
+        font-size: 14px;
+        padding: 10px 0px;
+    }
+    .srPaymentImg {
+        width: auto;
+        height: 1rem;
+    }
+}
